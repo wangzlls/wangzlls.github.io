@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>微信扫电话号码</title>
+  <style type="text/css">
+    /* 小屏幕手机端 */
+			@media (min-width: 0px) and (max-width:768px) {
+				.div1{
+					width: 100px;
+					height: 100px;
+					background-color: red;
+				}
+			}
+			
+			/* 中等屏幕（桌面显示器，大于等于 992px） */
+			@media (min-width: 768px) and (max-width:992px){
+				.div1{
+					width: 300px;
+					height: 300px;
+					background-color: blue;
+				}
+			}
+			
+			/* 大屏幕（大桌面显示器，大于等于 1200px） */
+			@media (min-width: 992px) {
+				.div1{
+					width: 500px;
+					height: 500px;
+					background-color: aqua;
+				}
+			}
+    body {
+      margin: 0;
+      width: 100%;
+      height: 100%
+    }
+    .common{
+      width: 100%;
+      height: 50%;
+      text-align: center;
+      margin-top: 100px;
+      font-size: 40px;
+      font-weight: 700;
+    }
+    .phone{
+      color: orange;
+      margin-bottom: 100px
+    }
+    .button{
+      width: 100px;
+      height: 100px;
+      background-color: lightgreen;
+      border-radius: 50%;
+      line-height: 100px;
+      margin: 0 auto;
+      color: red;
+    }
+    a
+    {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="phone">
+    <div class="phonenumber common">17709003215
+    </div>
+  </div>
+  <div class="button common">
+    <a href="tel:17709003215">拨打</a>
+  </div>
+</body>
+</html>
